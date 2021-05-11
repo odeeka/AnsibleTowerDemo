@@ -1,0 +1,9 @@
+---
+- name: Demonstrate demo running
+  hosts: centos
+
+  tasks:
+  - name: Display a gathered fact - IP address
+    debug:
+      msg: "Demo message"
+
