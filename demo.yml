@@ -1,6 +1,6 @@
 ---
 - name: Demonstrate demo running
-  hosts: centos
+  hosts: all
 
   tasks:
   - name: Display a gathered fact - IP address
